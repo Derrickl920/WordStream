@@ -10,8 +10,15 @@
 	width: 970px;
 }
 
+#header li{
+	list-style-type:none;
+	display: inline;
+}
+
 #logo, #header img, #navbar{
 	display: inline-block;
+	margin: 0;
+	padding:0;
 }
 
 #header img, #logo{
@@ -23,20 +30,28 @@
 }
 
 #navbar{
-	padding-left: 0px;
+	padding-left: 5px;
+	padding-right: 20px;
 	box-shadow: 0px 1px 1px;
-	margin-left: 220px;
-	background-color: #F9F9F9;
+	margin-left: 200px;
+	background-color: #f1f1f1;
+	padding-bottom: 5px;
+	font-size: 13px;
+	color: gray;
+}
+#navbar a{
+	text-decoration: none;
+	color: gray;
 }
 
 #description{
 	padding: 15px 0px 15px 10px;
-}
 
 }
 
-#login{
-	background-color: blue;
+
+.login{
+	background-color: #02A3DE;
 	color: white;
 	border-radius: 5px;
 	padding-left: 10px;
@@ -44,7 +59,7 @@
 
 #description{
 	background-color: #007DBC;
-	color: white
+	color: white;
 }
 
 /* SiderBar */
@@ -58,12 +73,17 @@
 	margin-bottom: 5px;
 }
 
+
 #sidebar p{
 	text-align: center;
 }
 
+#sidebar h5{
+	padding-top: 35px;
+}
+
 #demo{
-	background-color: lightblue;
+	background-color: #1a97d7;
 	color: white;
 	width:  215px;
 	height:35px;
@@ -71,12 +91,54 @@
 }
 
 #trial{
-	background-color: orange;
+	background-color: #ef6f1e;
 	color: white;
 	width: 215px;
 	height: 35px;
 	border-radius: 5px;
 }
+
+#sidebar p{
+	font-size: 10px;
+	margin: 0px;
+
+}
+
+h6#drive{
+
+	color: #D35648;
+	font-weight: bold;
+	margin: 0px;
+}
+
+h6#started{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#ad{
+	background-image: url("/Users/derrickliang/Desktop/WordStream/screen3-images/left_content_ad.png");
+	height: 241px;
+	width: 197px;
+}
+
+#ad h3{
+	color: #007CA9;
+	text-align: left;
+}
+
+#ad h5{
+	padding-top: 0px;
+	text-align: left;
+}
+
+#getgradedtoday{
+	background-color: #165D91;
+	margin-left: 30px;
+	border-radius: 5px;
+	color: white;
+}
+
 
 /* Content */
 #PCC{
@@ -88,7 +150,7 @@
 	width: 700px;
 	background-color: white;
 	padding-left: 30px;
-	font-size: 16px
+	font-size: 13px
 }
 .phone{
 	padding-left: 400px;
@@ -99,10 +161,61 @@
 	vertical-align: top;
 }
 
+
+
 #contentbox h6, h3{
 	margin:5px;
 }
 
+#PCC{
+	color: #007CA9;
+}
+
+#contentbox h3{
+	color: #007CA9;
+}
+
+h3#achieve{
+	color: #007CA9;
+	margin-left: 0px;
+}
+
+#content a{
+	color: #007CA9;
+}
+
+#contenttrial img{
+	padding-bottom: 45px;
+}
+#contenttrial{
+	display: inline-block;
+	border-style: solid;
+	border-color: #007CA9;
+}
+
+#contenttrial p{
+	width: 500px;
+}
+
+#contenttrial img, #trialtext{
+	display: inline-block;
+	vertical-align: top;
+}
+
+h3#free{
+	color: #007CA9;
+	font-weight: bold;
+	display: inline-block;
+}
 
 
+#getstartedtoday{
+	background-color: #92B639;
+	border-radius: 5px;
+}
+
+h4#automation{
+	color: #007CA9;
+	font-weight: bold;
+}
 
