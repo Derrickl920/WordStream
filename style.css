@@ -1,0 +1,108 @@
+/* Header */
+
+*{
+	font-family: sans-serif, arial;
+	font-weight: normal;
+}
+
+#header{
+	background-color: white;
+	width: 970px;
+}
+
+#logo, #header img, #navbar{
+	display: inline-block;
+}
+
+#header img, #logo{
+	vertical-align: top
+}
+
+#header img{
+	margin: 8px;
+}
+
+#navbar{
+	padding-left: 0px;
+	box-shadow: 0px 1px 1px;
+	margin-left: 220px;
+	background-color: #F9F9F9;
+}
+
+#description{
+	padding: 15px 0px 15px 10px;
+}
+
+}
+
+#login{
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+#description{
+	background-color: #007DBC;
+	color: white
+}
+
+/* SiderBar */
+
+#sidebar{
+	width: 215px;
+}
+
+#demo , #trial{
+	display: block;
+	margin-bottom: 5px;
+}
+
+#sidebar p{
+	text-align: center;
+}
+
+#demo{
+	background-color: lightblue;
+	color: white;
+	width:  215px;
+	height:35px;
+	border-radius: 5px;
+}
+
+#trial{
+	background-color: orange;
+	color: white;
+	width: 215px;
+	height: 35px;
+	border-radius: 5px;
+}
+
+/* Content */
+#PCC{
+	display: inline-block;
+	padding-left: 5px;
+}
+
+#content{
+	width: 700px;
+	background-color: white;
+	padding-left: 30px;
+	font-size: 16px
+}
+.phone{
+	padding-left: 400px;
+}
+
+#sidebar, #content, #contentbox{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#contentbox h6, h3{
+	margin:5px;
+}
+
+
+
+
